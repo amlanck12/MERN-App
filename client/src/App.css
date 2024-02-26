@@ -1,0 +1,55 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input{
+  width: 50vw;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgb(184, 124, 80);
+  text-align: center;
+  
+}
+
+.listItems{
+  background-color: rgb(95, 97, 88);
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  font-size: 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.icons{
+  position: sticky;
+  float: right;
+}
+
+.button {
+  margin: 0 10px;
+  padding: 10px;
+  font-size: 14px;
+  color: #6c6777;
+  background-color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  border-radius: 5px;
+  margin-top: 10xpx;
+}
+
+.button.selected {
+  color: #FFF;
+  background-color: #6c6777;
+}
+
+.button.clear {
+  float: right;
+  color: #FFF;
+  background-color: #ee1630;
+  width: 170px;
+}
